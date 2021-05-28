@@ -5,7 +5,7 @@ import tkinter.messagebox as tkMessageBox
 import sqlite3
 
 root1=Tk()
-root1.geometry("1200x500")
+root1.geometry("1200x501")
 root1.title("Contact Management System")
 root1.iconbitmap('icon.ico')
 login123=PhotoImage(file='img_login.png')
