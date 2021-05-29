@@ -11,26 +11,6 @@ root1.iconbitmap('icon.ico')
 login123=PhotoImage(file='img_login.png')
 loginimg=Label(root1, image=login123).place(x=0, y=0)
 
-def Login():
-    if Username.get()=="niraj" and Password.get()=="2424":
-        mainpage()
-    else:
-        tkMessageBox.showinfo("Error", "Please enter a correct Username or password")
-Username = Entry(root1, text="")
-Username.place(x=600, y=100)
-Password = Entry(root1, text="", show="*")
-Password.place(x=600, y=200)
-
-Username_txt = Label(root1, text="Username", font=('Times New Roman', 20, "bold"))
-Username_txt.place(x=450, y=100)
-Password_txt = Label(root1, text="Password", font=('Times New Roman', 20, "bold"))
-Password_txt.place(x=450, y=200)
-
-login_txt = Label(root1, text="Login Here", font=('Times New Roman', 20, "bold"))
-login_txt.place(x=580, y=20)
-login_btn=Button(root1,text="Login",font=('Times New Roman', 20, "bold"),command=Login)
-login_btn.place(x=600,y=400)
-
 
 
 
